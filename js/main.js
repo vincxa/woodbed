@@ -3,9 +3,9 @@ $('.firstsldier').owlCarousel({
     loop:true,
     margin:10,
     merge:true,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
+    // autoplay:true,
+    // autoplayTimeout:2000,
+    // autoplayHoverPause:true
     // responsive:{
     //     678:{
     //         mergeFit:true
@@ -20,9 +20,9 @@ $('.secondslider').owlCarousel({
     loop:true,
     margin:104,
     merge:true,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
+    // autoplay:true,
+    // autoplayTimeout:2000,
+    // autoplayHoverPause:true
     // responsive:{
     //     678:{
     //         mergeFit:true
@@ -32,3 +32,7 @@ $('.secondslider').owlCarousel({
     //     }
     // }
 });
+
+function flipone(){
+    document.getElementById('firstquestion').style.transform = 'rotateY(180deg)'
+}
