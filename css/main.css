@@ -67,7 +67,7 @@ h1{
     margin-top: 10px;
     
 }
-.newcolectionp{
+/* .newcolectionp*/ h2{ 
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@ h1{
     margin-top: 50px !important;
 }
 .value p{
-    font-size: 35px;
+    font-size: 30px;
     color: black;
 }
 .secondslider{
@@ -142,7 +142,6 @@ h1{
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-  
 .questions:hover .firstflipcardinner {
   transform: rotateY(-180deg);
   cursor: pointer;
@@ -167,9 +166,6 @@ h1{
 }
 .secundo{background-color: #BEAFC5;}.thirdo{background-color: #F6C7B9;}
 
-.ertsawoliani{
-    width: 100%;
-}
 .fchamonatval{
     /* width: 1610px; */
     width: 1288px;
@@ -179,12 +175,11 @@ h1{
     flex-wrap: wrap;
 }
 .chamonatvalisinner{
-    /* width: 400px; */
-    width: 350px;
+    width: 400px;
+    /* width: 350px; */
     margin-bottom: 120px;
 }
 .chamonatvalisinner p{
-    text-align: center;
     font-size: 35px;
     color: black;
 }
@@ -192,3 +187,144 @@ h1{
     width: 100%;
     height: 569px;
 }
+.innermain{
+    width: 1376.8px;
+    margin: 0 auto;
+}
+.innervalue{
+    width: 100%;
+    /* display: flex; */
+}
+.firstvalue{
+    display: flex;
+    margin-left: 50px;
+}
+.secondinnervalue{
+    margin-top: 50px;
+}
+.innervaluefoto{
+    width: 400.4px;
+    height: 570px;
+}
+.innervaluesp{
+    width: 364px;
+    height: 570px;
+    margin-left: 84px;
+}
+.innervaluesp p{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.innervaluesrep{
+    font-size: 20px !important;
+    color: #FF0000;
+}
+.suggestion{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fasi{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+#fasio:hover{
+    cursor: pointer;
+}
+.maxmin{
+    /* height: 60px; */
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+.maxmin input{
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 150px;
+    background-color: #D9D9D9;
+}
+.maxmin input:hover{
+    cursor: pointer;
+}
+.feri{
+    width: 60%;
+    /* height: 80px; */
+    height: 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.innerferi{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto 0;
+    display: flex;
+    /* border: 2px solid ; */
+    
+}
+.innerferi p{
+    font-size: 0px;
+    margin: 5px auto;
+    color: #ffffff;
+}
+.innerferia{
+    width: 50px;
+    height: 39px;
+    margin: auto 0 ;
+    display: flex;
+}
+.firstfer{
+    background-color: #E6BF83;
+}
+
+.firstfer:active{
+    width: 30px;
+    height: 30px;
+}
+.secondfer{
+    background-color: #643D01;
+}
+.secondfer:active{
+    width: 30px;
+    height: 30px;
+}
+.thirdfer{
+    background-color: #1E0000;
+}
+.thirdfer:active{
+    width: 30px;
+    height: 30px;
+}
+.searchi{
+    height: 40px;
+    display: flex;
+    position: relative;
+    border-bottom: none;
+}
+.searchbuttoni{
+    width: 70px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    right: 0;
+}
+.fa-magnifying-glass{
+    align-self: center;
+    margin: 0 auto;
+}
+
+
+
