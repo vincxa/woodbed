@@ -43,7 +43,7 @@ function show(){
 function shows(){
     let z = document.getElementById('feri').style.height
     if(z == 0){
-        document.getElementById('ferio').innerHTML = 'ფერიო&#8722;'
+        document.getElementById('ferio').innerHTML = 'ფერი&#8722;'
         document.getElementById('feri').style.height = '80px';
     }
     else if(z == '80px'){
