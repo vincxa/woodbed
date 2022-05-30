@@ -55,17 +55,6 @@ function shows(){
         document.getElementById('feri').style.height = '80px';
     }
 }
-// function gaamwvane(){
-//     let x = document.getElementById('innerferip').style.fontSize
-
-//     if(x = '0px'){
-//         document.getElementById('innerferip').style.fontSize = '20px'
-//         x = '20px'
-//     }
-//     else if(document.getElementById('innerferip').style.fontSize == '20px'){
-//         document.getElementById('innerferip').style.fontSize = '0px'
-//     }
-// }
 function gafiltre(){
     var num1, num2, number1, number2;
     num1 = document.getElementById("minnumber").value;
@@ -76,18 +65,29 @@ function gafiltre(){
     parseInt(number2) ;
     console.log(number1) ;
     console.log(number2) ;
-    if(number1 > 400){
+    if(number1 >= 0 & number1 < 400 ){
+        document.getElementById('forezerozero').style.width = '400px';
+        document.getElementById('forezerozero').style.height = '570px';
+        document.getElementById('forezerozero').style.overflow = 'visible';
+        document.getElementById('forezerozeroo').style.width = '400px';
+        document.getElementById('forezerozeroo').style.height = '570px';
+        document.getElementById('forezerozeroo').style.overflow = 'visible';
+        document.getElementById('foretwozero').style.width = '400px';
+        document.getElementById('foretwozero').style.height = '570px';
+        document.getElementById('foretwozero').style.overflow = 'visible';
+    }
+    else if(number1 >= 400 & number1 <= 420 & number2 =='' || number2 >= 420){
         document.getElementById('forezerozero').style.width = '0px';
         document.getElementById('forezerozero').style.height = '0px';
         document.getElementById('forezerozero').style.overflow = 'hidden';
         document.getElementById('forezerozeroo').style.width = '0px';
         document.getElementById('forezerozeroo').style.height = '0px';
         document.getElementById('forezerozeroo').style.overflow = 'hidden';
-        // document.getElementById('foretwozero').style.width = '0px';
-        // document.getElementById('foretwozero').style.height = '0px';
-        // document.getElementById('foretwozero').style.overflow = 'hidden';
+        document.getElementById('foretwozero').style.width = '400px';
+        document.getElementById('foretwozero').style.height = '570px';
+        document.getElementById('foretwozero').style.overflow = 'visible';
     }
-    else if(number1 > 420){
+    else if(number1 > 420 & number1 <450){
         document.getElementById('forezerozero').style.width = '0px';
         document.getElementById('forezerozero').style.height = '0px';
         document.getElementById('forezerozero').style.overflow = 'hidden';
@@ -99,7 +99,21 @@ function gafiltre(){
         document.getElementById('foretwozero').style.overflow = 'hidden';
         console.log(number1)
     }
-    else if(number1 > 450){
+    else if(number1 > 450 & number1 < 500 ){
+        document.getElementById('forezerozero').style.width = '0px';
+        document.getElementById('forezerozero').style.height = '0px';
+        document.getElementById('forezerozero').style.overflow = 'hidden';
+        document.getElementById('forezerozeroo').style.width = '0px';
+        document.getElementById('forezerozeroo').style.height = '0px';
+        document.getElementById('forezerozeroo').style.overflow = 'hidden';
+        document.getElementById('foretwozero').style.width = '0px';
+        document.getElementById('foretwozero').style.height = '0px';
+        document.getElementById('foretwozero').style.overflow = 'hidden';
+        document.getElementById('sixzerozero').style.width = '0px';
+        document.getElementById('fivezerozero').style.height = '0px';
+        document.getElementById('fivezerozero').style.overflow = 'hidden';
+    }
+    else if(number1 > 500 & number1 < 600){
         document.getElementById('forezerozero').style.width = '0px';
         document.getElementById('forezerozero').style.height = '0px';
         document.getElementById('forezerozero').style.overflow = 'hidden';
