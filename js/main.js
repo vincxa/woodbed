@@ -1,4 +1,4 @@
-$('.firstsldier').owlCarousel({
+ki$('.firstsldier').owlCarousel({
     items:1,
     loop:true,
     margin:10,
@@ -53,6 +53,34 @@ function shows(){
     else{
         document.getElementById('ferio').innerHTML = 'ფერი&#8722;'
         document.getElementById('feri').style.height = '80px';
+    }
+}
+
+function check(){
+    if(document.getElementById('innerferip').innerHTML == ''){
+        document.getElementById('innerferip').innerHTML = '&#10004'
+        console.log(document.getElementById('innerferip').innerHTML)
+    }
+    else if(document.getElementById('innerferip').innerHTML == '✔'){
+        document.getElementById('innerferip').innerHTML = ''
+    }
+}
+function secondcheck(){
+    if(document.getElementById('secondinnerferip').innerHTML == ''){
+        document.getElementById('secondinnerferip').innerHTML = '&#10004'
+        console.log(document.getElementById('innerferip').innerHTML)
+    }
+    else if(document.getElementById('secondinnerferip').innerHTML == '✔'){
+        document.getElementById('secondinnerferip').innerHTML = ''
+    }
+}
+function thirdcheck(){
+    if(document.getElementById('thirdinnerferip').innerHTML == ''){
+        document.getElementById('thirdinnerferip').innerHTML = '&#10004'
+        console.log(document.getElementById('thirdinnerferip').innerHTML)
+    }
+    else if(document.getElementById('thirdinnerferip').innerHTML == '✔'){
+        document.getElementById('thirdinnerferip').innerHTML = ''
     }
 }
 function gafiltre(){

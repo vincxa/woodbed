@@ -6,6 +6,10 @@
     font-size: 18px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: firago;
+    src: url(../fonts/FiraGO-Italic.woff);
+}
 .heading{
     font-size: 25px;
     /* width: 1360px; */
@@ -274,8 +278,8 @@ h1{
     
 }
 .innerferi p{
-    font-size: 0px;
-    margin: 5px auto;
+    font-size: 20px;
+    margin: 2px auto;
     color: #ffffff;
 }
 .innerferia{
@@ -326,6 +330,59 @@ h1{
     align-self: center;
     margin: 0 auto;
 }
+.footing{
+    width: 1540px;
+    height: 250px;
+    margin-top: 30px;
+    /* background-color: red; */
+    margin: 50px auto;
+    /* display: flex; */
+    border-top: solid black 1px;
+}
+.footericon{
+    width: 1440px;
+    height: 50px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footericon a{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.nedefullfooter{
+    width: 20%;
+    height: 100%;
+    display: flex;
 
+}
+.nedefullfooter img{
+    width: 40px;
+    height: 40px;
+    margin: auto 0px;
+}
+.iconsforfooter{
+    width: 100%;
+    display: flex;
+}
+.iconsforfooter img{
+    width: 40px;
+    height: 40px;
+    margin: auto 0px;
+}
+.iconsforfooter p{
+    font-size: 19px;
+    color: black;
+    margin: auto 0px;
+    font-family: firago;
+}
+.workinghours{
+    width: 300px;
+}
+.workinghours p{
+    font-size: 26px;
+    font-weight: 600;
+}
 
 
